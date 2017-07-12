@@ -1,60 +1,19 @@
-export default [
-    [{
-        name: '百度',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.baidu.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    },{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
-    }],
-    [{
-        name: '豆瓣',
-        icon: '/dist/static/logo.png',
-        src: 'http://www.douban.com'
+export default {
+    apps: [
+        [{
+            name: '哔哩哔哩',
+            icon: '/dist/static/icons/bilibili.jpg',
+            src: 'https://youhonglian.github.io/vue-bilibili-master/#/'
+        }],
+        [{
+            name: '哔哩哔哩',
+            icon: '/dist/static/icons/bilibili.jpg',
+            src: 'https://youhonglian.github.io/vue-bilibili-master/#/'
+        }]
+    ],
+    dock: [{
+        name: '哔哩哔哩',
+        icon: '/dist/static/icons/bilibili.jpg',
+        src: 'https://youhonglian.github.io/vue-bilibili-master/#/'
     }]
-]
+}

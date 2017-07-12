@@ -9,7 +9,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-color: white;
-        border-radius: 6px;
+        border-radius: 12px;
         overflow: hidden;
         width: 60px;
         height: 60px;
@@ -17,7 +17,11 @@
     &__name {
         color: white;
         font-size: 12px;
-        line-height: 20px;
+        line-height: 24px;
         text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 60px;
     }
 }

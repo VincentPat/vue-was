@@ -2,8 +2,7 @@
     <swiper
         class="vw-swiper"
         :options="swiperOption"
-        :style="bg"
-        ref="mySwiper">
+        ref="VWSwiper">
         <!-- slides -->
         <swiper-slide
             v-for="(page, index) in appData"
@@ -21,9 +20,10 @@
 import page from './page.vue'
 
 export default {
-    name: 'mySwiper',
+    name: 'VWSwiper',
     props: {
-        appData: Array
+        appData: Array,
+        gutter: String
     },
     components: {
         page
@@ -41,24 +41,13 @@ export default {
                 onTransitionStart(swiper){
                     console.log(swiper)
                 }
-            },
-            bgIndex: Math.ceil(Math.random() * 13)
+            }
         }
     },
     computed: {
         swiper() {
-            return this.$refs.mySwiper.swiper
-        },
-        bg() {
-            return `background-image: url("/dist/static/${this.bgIndex}.jpg");`
-        },
-        gutter() {
-            const gutter = (window.innerWidth - 240) / 5
-            return `${gutter}px`
+            return this.$refs.VWSwiper.swiper
         }
-    },
-    mounted() {
-        console.log(this.gutter)
     }
 }
 </script>
@@ -67,18 +56,19 @@ export default {
 .vw-swiper {
     width: 100%;
     height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    &__pagination {
+    &__pagination.swiper-pagination-bullets {
         position: absolute;
-        bottom: 20px;
+        bottom: 2px;
         z-index: 1;
         width: 100vw;
         text-align: center;
     }
-    .swiper-pagination-bullet-active {
-        background: white;
+    .swiper-pagination-bullet {
+        background: rgba(255, 255, 255, 0.3);
+        opacity: 1;
+        &-active {
+            background: white;
+        }
     }
 }
 </style>

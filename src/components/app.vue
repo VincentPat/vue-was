@@ -2,7 +2,8 @@
     <div class="app">
         <div
             class="app__icon"
-            :style="icon"></div>
+            :style="icon"
+            @click="open"></div>
         <div class="app__name">{{ appData.name }}</div>
     </div>
 </template>
@@ -16,6 +17,11 @@ export default {
     computed: {
         icon() {
             return `background-image: url("${this.appData.icon}")`
+        }
+    },
+    methods: {
+        open() {
+            this.$event.$emit('openApp', this.appData)
         }
     }
 }
