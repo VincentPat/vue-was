@@ -1,20 +1,24 @@
 .app {
     display: inline-block;
-    text-align: center;
     margin-bottom: 4px;
     user-select: none;
     -webkit-user-select: none;
     &__icon {
+        text-align: center;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-color: white;
         border-radius: 12px;
         overflow: hidden;
         width: 60px;
         height: 60px;
+        line-height: 60px;
+        color: #222222;
+        font-weight: bold;
     }
     &__name {
+        text-align: center;
         color: white;
         font-size: 12px;
         line-height: 24px;

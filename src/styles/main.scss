@@ -1,5 +1,6 @@
 @import './page.scss';
 @import './app.scss';
+@import './transition.scss';
 
 html, body {
     width: 100%;
@@ -8,6 +9,13 @@ html, body {
     padding: 0;
     -webkit-backface-visible: hidden;
     -webkit-tap-highlight-color: transparent;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+img {
+    -webkit-touch-callout: none;
 }
 
 * {

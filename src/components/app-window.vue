@@ -1,27 +1,28 @@
 <template>
-    <div class="app-window" v-show="show">
+    <div class="app-window">
+        <!-- iframe -->
         <iframe :src="url" frameborder="0" class="app-window__iframe"></iframe>
-        <div class="app-window__toolbar">
-            <button class="app-window__toolbar__btn" @click="close">
-                <i class="iconfont icon-close"></i>
-            </button>
-            <button class="app-window__toolbar__btn" @click="refresh">
-                <i class="iconfont icon-refresh"></i>
-            </button>
-        </div>
+        <!-- 工具栏 -->
+        <app-toolbar
+            @close="close"
+            @refresh="refresh"></app-toolbar>
     </div>
 </template>
 
 <script>
+import appToolbar from './app-toolbar.vue'
+
 export default {
     name: 'appWindow',
+    components: {
+        'app-toolbar': appToolbar
+    },
     props: {
-        src: String,
-        show: Boolean
+        appData: Object
     },
     computed: {
         url() {
-            return this.src || null
+            return this.appData ? this.appData.src : null
         }
     },
     methods: {
@@ -43,7 +44,7 @@ export default {
 .app-window {
     width: 100vw;
     height: 100vh;
-    z-index: 10;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,33 +52,6 @@ export default {
     &__iframe {
         width: 100%;
         height: 100%;
-    }
-    &__toolbar {
-        background: rgba(0, 0, 0, 0.6);
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 44px;
-        line-height: 44px;
-        padding: 0 20px;
-        text-align: center;
-        &__btn {
-            color: white;
-            line-height: 44px;
-            width: 44px;
-            border: none;
-            outline: none;
-            background: transparent;
-            margin-right: 20px;
-            .iconfont {
-                font-size: 24px;
-                font-weight: bold;
-            }
-            &:last-child {
-                margin-right: 0px;
-            }
-        }
     }
 }
 </style>

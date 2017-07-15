@@ -1,27 +1,31 @@
 <template>
     <div class="app">
-        <div
-            class="app__icon"
-            :style="icon"
-            @click="open"></div>
+        <app-icon
+            :icon="appData.icon"
+            :theme="appData.theme"
+            @click.native="openApp"
+            ref="icon"></app-icon>
         <div class="app__name">{{ appData.name }}</div>
     </div>
 </template>
 
 <script>
+import appIcon from './app-icon.vue'
+
 export default {
     name: 'app',
+    components: {
+        'app-icon': appIcon
+    },
     props: {
         appData: Object
     },
-    computed: {
-        icon() {
-            return `background-image: url("${this.appData.icon}")`
-        }
-    },
     methods: {
-        open() {
-            this.$event.$emit('openApp', this.appData)
+        openApp() {
+            const data = Object.assign({}, this.appData, {
+                el: this.$refs.icon.$el
+            })
+            this.$event.$emit('openApp', data)
         }
     }
 }

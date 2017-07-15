@@ -5,16 +5,35 @@
         <!-- 滑动器 -->
         <vw-swiper
             :appData="appData.apps"
-            :gutter="gutter"></vw-swiper>
+            :gutter="gutter"
+            ref="vwSwiper"></vw-swiper>
         <!-- Dock -->
         <dock
             :appData="appData.dock"
-            :gutter="gutter"></dock>
+            :gutter="gutter"
+            ref="dock"></dock>
+        <!-- App Splash -->
+        <!-- 闪屏 -->
+        <transition
+            name="fade"
+            @before-enter="setIconPosition"
+            @after-enter="splashCountDown">
+            <app-splash
+                v-show="showSplashScreen"
+                :offset="currentIconPosition"
+                :appData="currentAppData"
+                ref="splash"></app-splash>
+        </transition>
         <!-- App Window -->
-        <app-window
-            @close="closeAppWindow"
-            :src="currentAppSrc"
-            :show="showAppWindow"></app-window>
+        <transition
+            name="fade"
+            @after-leave="closeCallback">
+            <app-window
+                @close="closeAppWindow"
+                :appData="currentAppData"
+                v-show="showAppWindow"
+                ref="window"></app-window>
+        </transition>
     </div>
 </template>
 
@@ -22,13 +41,15 @@
 import vwSwiper from './swiper.vue'
 import dock from './dock.vue'
 import appWindow from './app-window.vue'
+import appSplash from './app-splash.vue'
 
 export default {
     name: 'desktop',
     components: {
         'vw-swiper': vwSwiper,
         dock,
-        'app-window': appWindow
+        'app-window': appWindow,
+        'app-splash': appSplash
     },
     props: {
         appData: Object
@@ -37,7 +58,9 @@ export default {
         return {
             bgIndex: Math.ceil(Math.random() * 6),
             showAppWindow: false,
-            currentAppSrc: null
+            currentAppData: null,
+            showSplashScreen: false,
+            currentIconPosition: {}
         }
     },
     computed: {
@@ -52,13 +75,32 @@ export default {
     methods: {
         closeAppWindow() {
             this.showAppWindow = false
-            this.currentAppSrc = null
+        },
+        closeCallback() {
+            this.currentAppData = null
+        },
+        splashCountDown() {
+            // 显示App Window
+            this.showAppWindow = true
+            // 使闪屏图标居中
+            const top = window.innerHeight / 2
+            const left = window.innerWidth / 2
+            this.currentIconPosition = { top, left }
+            // 开始计时
+            setTimeout(() => {
+                this.showSplashScreen = false
+            }, 2000)
+        },
+        setIconPosition() {
+            const top = this.currentAppData.el.offsetTop + 30
+            const left = this.currentAppData.el.offsetLeft + 30
+            this.currentIconPosition = { top, left }
         }
     },
     mounted() {
         this.$event.$on('openApp', (appData) => {
-            this.currentAppSrc = appData.src
-            this.showAppWindow = true
+            this.currentAppData = appData
+            this.showSplashScreen = true
         })
     }
 }

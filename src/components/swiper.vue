@@ -37,10 +37,7 @@ export default {
                 pagination: '.vw-swiper__pagination',
                 paginationClickable: false,
                 mousewheelControl: true,
-                observeParents: true,
-                onTransitionStart(swiper){
-                    console.log(swiper)
-                }
+                observeParents: true
             }
         }
     },
