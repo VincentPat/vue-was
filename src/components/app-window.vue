@@ -1,11 +1,13 @@
 <template>
     <div class="app-window">
         <!-- iframe -->
-        <iframe :src="url" frameborder="0" class="app-window__iframe"></iframe>
+        <iframe :src="iframeSrc" frameborder="0" class="app-window__iframe"></iframe>
         <!-- 工具栏 -->
         <app-toolbar
             @close="close"
-            @refresh="refresh"></app-toolbar>
+            @refresh="refresh"
+            @link="link"
+            @github="github"></app-toolbar>
     </div>
 </template>
 
@@ -20,9 +22,9 @@ export default {
     props: {
         appData: Object
     },
-    computed: {
-        url() {
-            return this.appData ? this.appData.src : null
+    data() {
+        return {
+            iframeSrc: null
         }
     },
     methods: {
@@ -30,11 +32,21 @@ export default {
             this.$emit('close')
         },
         refresh() {
-            const iframe = this.$el.querySelectorAll('iframe')[0]
-            iframe.src = ''
+            this.iframeSrc = null
             setTimeout(() => {
-                iframe.src = this.url
+                this.iframeSrc = this.appData ? this.appData.src : null
             }, 100)
+        },
+        link() {
+            if (this.appData && this.appData.link) location.href = this.appData.link
+        },
+        github() {
+            if (this.appData && this.appData.github) location.href = this.appData.github
+        }
+    },
+    watch: {
+        appData(value) {
+            this.iframeSrc = this.appData ? this.appData.src : null
         }
     }
 }
@@ -49,6 +61,7 @@ export default {
     top: 0;
     left: 0;
     background: white;
+    padding-bottom: 50px;
     &__iframe {
         width: 100%;
         height: 100%;

@@ -89,7 +89,7 @@ export default {
             // 开始计时
             setTimeout(() => {
                 this.showSplashScreen = false
-            }, 2000)
+            }, 100000)
         },
         setIconPosition() {
             const top = this.currentAppData.el.offsetTop + 30

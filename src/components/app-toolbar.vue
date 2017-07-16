@@ -6,6 +6,15 @@
         <button class="app-toolbar__btn" @click="refresh">
             <i class="iconfont icon-refresh"></i>
         </button>
+        <!-- <button class="app-toolbar__btn" @click="sf">
+            <i class="iconfont icon-sf"></i>
+        </button> -->
+        <button class="app-toolbar__btn" @click="link">
+            <i class="iconfont icon-file"></i>
+        </button>
+        <button class="app-toolbar__btn" @click="github">
+            <i class="iconfont icon-github"></i>
+        </button>
     </div>
 </template>
 
@@ -18,6 +27,12 @@ export default {
         },
         refresh() {
             this.$emit('refresh')
+        },
+        link() {
+            this.$emit('link')
+        },
+        github() {
+            this.$emit('github')
         }
     }
 }
@@ -30,15 +45,15 @@ export default {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 44px;
-    line-height: 44px;
+    height: 50px;
+    line-height: 50px;
     padding: 0 20px;
     text-align: center;
     z-index: 1;
     &__btn {
         color: white;
-        line-height: 44px;
-        width: 44px;
+        line-height: 50px;
+        width: 50px;
         border: none;
         outline: none;
         background: transparent;

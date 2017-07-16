@@ -13,7 +13,7 @@ export default {
         },{
             name: '豆瓣电影',
             icon: './dist/static/icons/dbdy.jpg',
-            src: 'https://chenhuichao.com/vue2.x-douban./dist/#/',
+            src: 'https://chenhuichao.com/vue2.x-douban/dist/#/',
             github: 'https://github.com/superman66/vue2.x-douban'
         },{
             name: '网易云音乐',
@@ -33,7 +33,8 @@ export default {
         },{
             name: '猫眼电影',
             icon: './dist/static/icons/mydy.jpg',
-            src: 'https://zhixuanziben.github.io/gouyan-demo./dist/index.html#/inTheaters',
+            src: 'https://zhixuanziben.github.io/gouyan-demo/dist/index.html#/inTheaters',
+            link: 'https://segmentfault.com/a/1190000008614876',
             github: 'https://github.com/zhixuanziben/gouyan-movie-vue'
         },{
             name: 'V2EX',
