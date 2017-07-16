@@ -65,7 +65,7 @@ export default {
     },
     computed: {
         bg() {
-            return `background-image: url("/dist/static/bgs/${this.bgIndex}.jpg");`
+            return `background-image: url("./dist/static/bgs/${this.bgIndex}.jpg");`
         },
         gutter() {
             const gutter = (window.innerWidth - 240) / 5
