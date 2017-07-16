@@ -3,11 +3,14 @@ var webpack = require('webpack')
 var CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-    entry: './src/main.js',
+    entry: {
+        build: './src/main.js',
+        about: './src/about.js'
+    },
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/dist/',
-        filename: 'build.js'
+        filename: '[name].js'
     },
     module: {
         rules: [
