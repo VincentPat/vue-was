@@ -55,7 +55,7 @@ export default {
     height: 100%;
     &__pagination.swiper-pagination-bullets {
         position: absolute;
-        bottom: 2px;
+        bottom: 10px;
         z-index: 1;
         width: 100vw;
         text-align: center;
