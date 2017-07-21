@@ -54,8 +54,6 @@ import vwSwiper from './swiper.vue'
 import appWindow from './app-window.vue'
 import appSplash from './app-splash.vue'
 
-import logo from '../../static/logo.png'
-
 export default {
     name: 'desktop',
     components: {
@@ -75,11 +73,11 @@ export default {
             currentAppData: null,
             showSplashScreen: false,
             currentIconPosition: {},
-            logo,
             appTitle: '',
             appTitleIndex: 0,
             appTitleInterval: null,
             showAppLogo: false,
+            logo: './dist/static/logo.png'
         }
     },
     computed: {
