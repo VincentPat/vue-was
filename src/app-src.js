@@ -21,6 +21,12 @@ export default {
             link: 'https://segmentfault.com/a/1190000008115372',
             github: 'https://github.com/superman66/vue2.x-douban'
         }, {
+            name: '豆瓣电影',
+            icon: './dist/static/icons/db.jpg',
+            src: 'http://59.110.140.119:8080/movie-show',
+            link: 'https://segmentfault.com/a/1190000010309751',
+            github: 'https://github.com/buptsky/vue-douban-movie/'
+        }, {
             name: '滴滴出行',
             icon: './dist/static/icons/didi.jpg',
             src: 'https://uncleze2017.github.io/vue-didi-demo/index.html',
