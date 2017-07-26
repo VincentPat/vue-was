@@ -113,7 +113,7 @@ export default {
             src: 'http://118.89.226.181:8080/',
             link: 'https://segmentfault.com/a/1190000009339117',
             github: 'https://github.com/ddqre12345/vue-music'
-        }, 
+        },
         // {
         //     name: 'QQ音乐',
         //     icon: './dist/static/icons/qqmusic.jpg',
@@ -158,6 +158,12 @@ export default {
             src: 'http://118.178.56.106/gok/#/equip',
             link: 'https://segmentfault.com/a/1190000008668442',
             github: 'https://github.com/maidishike/vue-gok'
+        }, {
+            name: '网易云MV',
+            icon: '网易云MV',
+            src: 'https://mv.mrcxh.com/#/',
+            link: 'https://segmentfault.com/a/1190000009147495',
+            github: 'https://github.com/safaring/Vue2-MV'
         }]
     ],
     // dock: [{

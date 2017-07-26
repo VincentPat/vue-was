@@ -44,6 +44,7 @@ ONE.一个 | [Demo](https://imitateone-ailidan.rhcloud.com) | [SegmentFault](htt
 nReader | [Demo](http://35.189.165.140:8080/#/) | [SegmentFault](https://segmentfault.com/a/1190000009653444) | [Github](https://github.com/zimplexing/vue-nReader)
 微豆 | [Demo](http://vdo.ralfz.com/movie/home) | [SegmentFault](https://segmentfault.com/a/1190000008730669) | [Github](https://github.com/RalfZhang/Vdo)
 王者盒子 | [Demo](http://118.178.56.106/gok/#/equip) | [SegmentFault](https://segmentfault.com/a/1190000008668442) | [Github](https://github.com/maidishike/vue-gok)
+网易云MV | [Demo](https://mv.mrcxh.com/#/) | [SegmentFault](https://segmentfault.com/a/1190000009147495) | [Github](https://github.com/safaring/Vue2-MV)
 
 ---
 
