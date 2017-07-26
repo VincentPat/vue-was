@@ -14,15 +14,17 @@ export default {
             src: 'https://zhixuanziben.github.io/gouyan-demo/dist/index.html#/inTheaters',
             link: 'https://segmentfault.com/a/1190000008614876',
             github: 'https://github.com/zhixuanziben/gouyan-movie-vue'
-        }, {
+        }, 
+        // {
+        //     name: '豆瓣电影',
+        //     icon: './dist/static/icons/dbdy.jpg',
+        //     src: 'https://chenhuichao.com/vue2.x-douban/dist/#/',
+        //     link: 'https://segmentfault.com/a/1190000008115372',
+        //     github: 'https://github.com/superman66/vue2.x-douban'
+        // },
+        {
             name: '豆瓣电影',
             icon: './dist/static/icons/dbdy.jpg',
-            src: 'https://chenhuichao.com/vue2.x-douban/dist/#/',
-            link: 'https://segmentfault.com/a/1190000008115372',
-            github: 'https://github.com/superman66/vue2.x-douban'
-        }, {
-            name: '豆瓣电影',
-            icon: './dist/static/icons/db.jpg',
             src: 'http://59.110.140.119:8080/movie-show',
             link: 'https://segmentfault.com/a/1190000010309751',
             github: 'https://github.com/buptsky/vue-douban-movie/'
@@ -65,10 +67,18 @@ export default {
         }, {
             name: '饿了么',
             icon: './dist/static/icons/eleme.jpg',
-            src: 'http://vuejssellapp.t.imooc.io/',
-            link: 'https://segmentfault.com/a/1190000009356676',
-            github: 'https://github.com/ustbhuangyi/vue-sell'
-        }, {
+            src: 'https://hbxywdk.github.io/eleme-vue2-static/#/',
+            link: 'http://www.jianshu.com/p/65c957b228e9',
+            github: 'https://github.com/hbxywdk/eleme-vue2'
+        },
+        // {
+        //     name: '饿了么',
+        //     icon: './dist/static/icons/eleme.jpg',
+        //     src: 'http://vuejssellapp.t.imooc.io/',
+        //     link: 'https://segmentfault.com/a/1190000009356676',
+        //     github: 'https://github.com/ustbhuangyi/vue-sell'
+        // },
+        {
             name: '链家',
             icon: './dist/static/icons/lianjia.jpg',
             src: 'https://luxroid.com/lianjia/',

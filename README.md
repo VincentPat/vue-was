@@ -17,18 +17,20 @@
 豆瓣电影（版本1） | [Demo](https://chenhuichao.com/vue2.x-douban/dist/#/) | [SegmentFault](https://segmentfault.com/a/1190000008115372) | [Github](https://github.com/superman66/vue2.x-douban)
 豆瓣电影（版本2） | [Demo](http://59.110.140.119:8080/movie-show) | [SegmentFault](https://segmentfault.com/a/1190000010309751) | [Github](https://github.com/buptsky/vue-douban-movie/)
 滴滴出行 | [Demo](https://uncleze2017.github.io/vue-didi-demo/index.html) | [SegmentFault](https://segmentfault.com/a/1190000009742092) | [Github](https://github.com/uncleze2017/Imitation-DIDI-project)
-微信 | [Demo](https://zhaohaodang.com/vue2-wechat) | [SegmentFault](https://segmentfault.com/a/1190000008669330) | [Github](https://github.com/zhaohaodang/vue-WeChat)
+微信（版本1） | [Demo](https://zhaohaodang.com/vue2-wechat) | [SegmentFault](https://segmentfault.com/a/1190000008669330) | [Github](https://github.com/zhaohaodang/vue-WeChat)
+微信（版本2） | [Demo](http://cangdu.org:8003/dialogue) | [SegmentFault](https://segmentfault.com/a/1190000009827954) | [Github](https://github.com/bailichen/vue-weixin)
 新浪微博 | [Demo](http://juniortour.net:8080/) | [SegmentFault](https://segmentfault.com/a/1190000010043484) | [Github](https://github.com/JuniorTour/vue-weibo)
 腾讯课堂 | [Demo](https://lijun0.github.io/tencent-kecheng/#/) | [SegmentFault](https://segmentfault.com/a/1190000009885164) | [Github](https://github.com/lijun0/tencent)
 腾讯体育 | [Demo](http://xurenjie.cn:3000/vue-tencent-sports/index.html) | [SegmentFault](https://segmentfault.com/a/1190000009684314) | [Github](https://github.com/renjie1996/tencent-sports)
 闲鱼 | [Demo](https://sukura7.github.io/vue-xianyu-demo/index.html) | [SegmentFault](https://segmentfault.com/a/1190000009919769) | [Github](https://github.com/Sukura7/vue-ali-xianyu)
-饿了么 | [Demo](http://vuejssellapp.t.imooc.io/) | [SegmentFault](https://segmentfault.com/a/1190000009356676) | [Github](https://github.com/ustbhuangyi/vue-sell)
+饿了么（版本1） | [Demo](https://hbxywdk.github.io/eleme-vue2-static/#/) | [简书](http://www.jianshu.com/p/65c957b228e9) | [Github](https://github.com/hbxywdk/eleme-vue2)
+饿了么（版本2） | [Demo](http://vuejssellapp.t.imooc.io/) | [SegmentFault](https://segmentfault.com/a/1190000009356676) | [Github](https://github.com/ustbhuangyi/vue-sell)
 链家 | [Demo](https://luxroid.com/lianjia/) | [简书](http://www.jianshu.com/p/4ae167562dc3) | [Github](https://github.com/mixihome/lianjia)
 今日头条 | [Demo](https://hcy1996.github.io) | [SegmentFault](https://segmentfault.com/a/1190000009151598) | [Github](https://github.com/hcy1996/vue-toutiao)
 知乎日报 | [Demo](http://lwdvue.cn/#/) | [SegmentFault](https://segmentfault.com/a/1190000009305496) | [Github](https://github.com/biaodigit/vue-news)
 V2EX | [Demo](http://v2ex.liuzhen.me/) | [SegmentFault](https://segmentfault.com/a/1190000006940358) | [Github](https://github.com/liuzhenangel/v2ex_frontend)
 CNode | [Demo](http://cnode.ruanyq.cn/) | [SegmentFault](https://segmentfault.com/a/1190000008416130) | [Github](https://github.com/Ryqsky/cnode_vue)
-ONE.一个 | [Demo](https://imitateone-ailidan.rhcloud.com) | [SegmentFault](https://segmentfault.com/a/1190000010137578) | [Github](https://github.com/eidonlon/imitate-One)
+ONE.一个（版本1） | [Demo](https://imitateone-ailidan.rhcloud.com) | [SegmentFault](https://segmentfault.com/a/1190000010137578) | [Github](https://github.com/eidonlon/imitate-One)
 网易云音乐 | [Demo](http://118.89.226.181:8080/) | [SegmentFault](https://segmentfault.com/a/1190000009339117) | [Github](https://github.com/ddqre12345/vue-music)
 尤大博客 | [Demo](http://bigtiger.me/) | [SegmentFault](https://segmentfault.com/a/1190000009341256) | [Github](https://github.com/liujinyang1994/Blog)
 火车购票 | [Demo](https://hj0503.github.io/vue-buy-tickets) | [SegmentFault](https://segmentfault.com/a/1190000009796549) | [Github](https://github.com/hj0503/vue-buy-tickets)
@@ -48,6 +50,10 @@ nReader | [Demo](http://35.189.165.140:8080/#/) | [SegmentFault](https://segment
 豆瓣电影（版本3） | [SegmentFault](https://segmentfault.com/a/1190000009307207) | [Github](https://github.com/Recklesslmz/vue-douban)
 蘑菇街 | [SegmentFault](https://segmentfault.com/a/1190000009972674) | [Github](https://github.com/uncleze2017/Imitation-DIDI-project)
 QQ音乐（有预览地址但没设置viewport，先记录在这里） | [SegmentFault](https://segmentfault.com/a/1190000009923666) | [Github](https://github.com/yuxiuting/Vue-qqMusic)
+Readhub | [知乎](https://zhuanlan.zhihu.com/p/27272966) | [Github](https://github.com/liruifengv/Readhub-vue)
+卖座电影网 | - | [Github](https://github.com/ChuckCZC/vue-demo-maizuo)
+ONE.一个（版本2） | [知乎](https://zhuanlan.zhihu.com/p/27854029) | [Github](https://github.com/gongph/one-vue)
+MyDiary | - | [Github](https://github.com/ssshooter/MyDiary-Vue)
 
 ---
 
@@ -58,6 +64,9 @@ QQ音乐（有预览地址但没设置viewport，先记录在这里） | [Segmen
 :--- | :--- | :--- | :----
 小米官网 | [Demo](http://vue.fecss.com/mi/) | [掘金](https://juejin.im/entry/57c649bec4c9710061a48ffc) | [Github](https://github.com/wendaosanshou/mi-by-vue)
 cnodejs | [Demo](http://demo.bitibiti.com/cnodejs-vue/#!/) | - | [Github](https://github.com/beilunyang/cnodejs-vue)
+RubyChina | [Demo](https://hql123.github.io/) | [简书](http://www.jianshu.com/p/86f81d798718) | [Github](https://github.com/hql123/vue-ruby-china)
+微信PC版 | [Demo](https://han960619.github.io/Vue-chat/#/chat) | [简书](http://www.jianshu.com/p/dade7fb03891) | [Github](https://github.com/han960619/Vue-chat)
+网易严选 | [Demo](http://zhaoboy.bid/yanxuan/#/) | - | [Github](https://github.com/MengZhaoFly/netease_yanxuan)
 
 ---
 
