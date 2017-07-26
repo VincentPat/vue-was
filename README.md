@@ -22,8 +22,8 @@ https://vincentpat.github.io/vue-was/
 :--- | :--- | :--- | :----
 哔哩哔哩 | [Demo](https://youhonglian.github.io/vue-bilibili-master/#/) | [SegmentFault](https://segmentfault.com/a/1190000009912978) | [Github](https://github.com/youhonglian/vue-bilibili)
 猫眼电影 | [Demo](https://zhixuanziben.github.io/gouyan-demo/dist/index.html#/inTheaters) | [SegmentFault](https://segmentfault.com/a/1190000008614876) | [Github](https://github.com/zhixuanziben/gouyan-movie-vue)
-豆瓣电影 | [Demo](https://chenhuichao.com/vue2.x-douban/dist/#/) | [SegmentFault](https://segmentfault.com/a/1190000008115372) | [Github](https://github.com/superman66/vue2.x-douban)
-豆瓣电影 | [Demo](http://59.110.140.119:8080/movie-show) | [SegmentFault](https://segmentfault.com/a/1190000010309751) | [Github](https://github.com/buptsky/vue-douban-movie/)
+豆瓣电影（版本1） | [Demo](https://chenhuichao.com/vue2.x-douban/dist/#/) | [SegmentFault](https://segmentfault.com/a/1190000008115372) | [Github](https://github.com/superman66/vue2.x-douban)
+豆瓣电影（版本2） | [Demo](http://59.110.140.119:8080/movie-show) | [SegmentFault](https://segmentfault.com/a/1190000010309751) | [Github](https://github.com/buptsky/vue-douban-movie/)
 滴滴出行 | [Demo](https://uncleze2017.github.io/vue-didi-demo/index.html) | [SegmentFault](https://segmentfault.com/a/1190000009742092) | [Github](https://github.com/uncleze2017/Imitation-DIDI-project)
 微信 | [Demo](https://zhaohaodang.com/vue2-wechat) | [SegmentFault](https://segmentfault.com/a/1190000008669330) | [Github](https://github.com/zhaohaodang/vue-WeChat)
 新浪微博 | [Demo](http://juniortour.net:8080/) | [SegmentFault](https://segmentfault.com/a/1190000010043484) | [Github](https://github.com/JuniorTour/vue-weibo)
