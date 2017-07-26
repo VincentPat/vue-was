@@ -46,6 +46,17 @@ nReader | [Demo](http://35.189.165.140:8080/#/) | [SegmentFault](https://segment
 王者盒子 | [Demo](http://118.178.56.106/gok/#/equip) | [SegmentFault](https://segmentfault.com/a/1190000008668442) | [Github](https://github.com/maidishike/vue-gok)
 网易云MV | [Demo](https://mv.mrcxh.com/#/) | [SegmentFault](https://segmentfault.com/a/1190000009147495) | [Github](https://github.com/safaring/Vue2-MV)
 
+另外有一些没有预览地址的项目，就没有写到我自己的小项目里了，作为资料，一并整理过来吧：
+
+名称 | 文章 | 仓库地址 
+:--- | :--- | :----
+京东 | [SegmentFault](https://segmentfault.com/a/1190000008986494) | [Github](https://github.com/huangche007/vue-jd)
+仿手机QQ | [SegmentFault](https://segmentfault.com/a/1190000008850029) | [Github](https://github.com/jiangqizheng/vue-MiniQQ)
+天气预报 | [SegmentFault](https://segmentfault.com/a/1190000009097249) | [Github](https://github.com/moedong/vue-wfcast)
+豆瓣电影（版本3） | [SegmentFault](https://segmentfault.com/a/1190000009307207) | [Github](https://github.com/Recklesslmz/vue-douban)
+蘑菇街 | [SegmentFault](https://segmentfault.com/a/1190000009972674) | [Github](https://github.com/uncleze2017/Imitation-DIDI-project)
+QQ音乐（有预览地址但没设置viewport，先记录在这里） | [SegmentFault](https://segmentfault.com/a/1190000009923666) | [Github](https://github.com/yuxiuting/Vue-qqMusic)
+
 ---
 
 此项目仅供学习交流使用。
